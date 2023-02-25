@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steakhouse</title>
+    <link rel="stylesheet" href="steak.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento&family=Quattrocento+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="header__nav header__row">
+            <div class="col-1">
+                <img src="logo-6.svg" alt="lorem ipsum logo" class="logo">
+            </div>
+            <div class="col-2">
+                <ul class="nav-list">
+                    <li class="nav-item">About</li>
+                    <li class="nav-item">Contact</li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <ul class="nav-list">
+                    <li class="nav-item">Sign Up</li>
+                    <li class="nav-item">Sign In</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="13900_1.jpg" alt="medium rare steak with salt granules and coriander" class="hero__image">
+        <div class="hero__text-container">
+            <div class="hero__text-container__row">
+                <h1 class="hero__text-row__main">Steak</h1>
+                <h2 class="hero__text-row__sub">Salted & seared,
+                    to perfection.</h2>
+            </div>
+        </div>
+        <div class="button-container button row">
+            <button class="hero__button text-uppercase">Order Now</button>
+        </div>
+    </section>
+
+    <section class="sign-up">
+        <div class="sign-up__text text__row">
+            <div class="text__col">
+                <h1 class="text__col__heading">Lorem ipsum dolor sit.</h2>
+                <p class="text__col__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="sign-up__input input__row">
+            <div class="input__col-1">
+                <input type="email" placeholder="Email address*" class="email">
+                <input type="text" placeholder="Zip code" class="zip-code">
+            </div>
+            <div class="input__col-2">
+                <button class="input__button text-uppercase">Sign Up!</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards">
+        <div class="cards__container cards__row">
+            <div class="card-image-col">
+                <div class="card-image-wrapper">
+                    <img src="menu.jpg" alt="food" class="card-image-wrapper__pic">
+                    <h3 class="card-image-wrapper__heading text-center">Lorem, ipsum dolor.</h3>
+                </div>
+                <div class="card-cta">
+                    <button class="card-cta__button text-center text-uppercase">View Menu</button>
+                </div>
+            </div>
+
+            <div class="card-image-col">
+                <div class="card-image-wrapper">
+                    <img src="order-pic.jpg" alt="food" class="card-image-wrapper__pic">
+                    <h3 class="card-image-wrapper__heading text-center">Lorem, ipsum dolor.</h3>
+                </div>
+                <div class="card-cta">
+                    <button class="card-cta__button text-center text-uppercase">Order Now</button>
+                </div>
+            </div>
+
+            <div class="card-image-col">
+                <div class="card-image-wrapper">
+                    <img src="about.jpg" alt="food" class="card-image-wrapper__pic">
+                    <h3 class="card-image-wrapper__heading text-center">Lorem, ipsum dolor.</h3>
+                </div>
+                <div class="card-cta">
+                    <button class="card-cta__button text-center text-uppercase">About Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notice in section below, despite not being named so, the footer__page-links and footer__social-links acts as the columns within the row. Still follows the convention of having container, row, col.  -->
+    <section class="footer">
+        <div class="footer__container footer__row">
+            <div class="footer__page-links">
+                <ul class="footer__page-links__list">
+                    <li class="footer__page-links__list__item">About</li>
+                    <li class="footer__page-links__list__item">Contact</li>
+                    <li class="footer__page-links__list__item">Sign Up</li>
+                    <li class="footer__page-links__list__item">Sign In</li>
+                    <li class="footer__page-links__list__item">Order</li>
+                    <li class="footer__page-links__list__item">Menu</li>
+                </ul>
+            </div>
+
+            <div class="footer__social-links">
+                <h3 class="footer__social-links__text">Stay Connected</h3>
+                <img src="twitter.svg" alt="twitter logo" class="social-logo">
+                <img src="square-instagram.svg" alt="instagram logo" class="social-logo">
+                <img src="square-whatsapp.svg" alt="whatsapp logo" class="social-logo">
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
